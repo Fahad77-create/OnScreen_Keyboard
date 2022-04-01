@@ -1,0 +1,281 @@
+body{
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(31, 1, 48) 50%, rgba(0,0,0,1) 100%);
+}
+
+input:focus{
+    outline: none !important;
+}
+#inputBar{
+    background-color:rgba(255, 255, 255, 0) ;
+     margin-left:22% ;
+     width:55vw ;
+     height:7vh ;
+     font-size: larger;
+     color: whitesmoke;
+     border: none;
+     border-bottom:2px solid #A500FD;
+     margin-bottom:10vh ;
+     margin-top:5vh ;
+     /* display: block; */
+
+}
+button{
+    height:3vw ;
+    width:8vw ;
+    margin-left:1vw ;
+    font-size:1.5vw ;
+    font-weight: bold;
+    color: aliceblue;
+    background-color:#208922;
+    border:1px solid whitesmoke;
+    border-radius:3px ;
+}
+button:hover{
+    color: aliceblue;
+    background-color:#208922;
+    border:1px solid #A500FD;
+}
+  
+  .keyboard {
+      /* margin:0 21% ;
+      border:2px solid white;  */
+      text-align: center;
+      font-size: 14px;
+      font-family: sans-serif;
+      display: none;
+  }
+  
+  .keyboard__row {
+      display: inline-block;
+      height: 3.5vw;
+      margin: 0.2em;
+  }
+  
+  .keyboard__row--h1 {
+      height: 1.7em;
+      line-height: 1.4em;
+  }
+  
+  .keyboard__row--h3 {
+      height: 3.3em;
+  }
+  /* #333 */
+  .keyboard__row > * {
+      position: relative;
+      background: #59FD3C;
+      text-align: center;
+      color:black;
+      float: left;
+      border-radius: 0.3em;
+      margin: 0.2em;
+      padding: 0.2em;
+      width: 3.3em;
+      height: 100%;
+      box-sizing: border-box;
+      cursor: pointer;
+      /* -webkit-user-select: none; */
+      border: 1px solid #208922;
+      box-shadow: 0 0.2em 0 0.05em  #A500FD;
+      border-bottom-color: #555;
+  }
+  
+  .keyboard__row--h1 > div {
+      width: 3.5em;
+  }
+  
+  .keyboard__row > div[data-pressed],
+  .keyboard__row > div:active {
+      background:#208922 ;
+      color: whitesmoke;
+      position: relative;
+      top: 0.2em;
+      box-shadow: 0 0 0 0.05em #208922;
+  }
+  
+  .key--w3 {
+      width: 4.6em;
+  }
+  
+  .key--w4 {
+      width: 6em;
+  }
+  
+  .key--w5 {
+      width: 6.5em;
+  }
+  
+  .key--w6 {
+      width: 8.3em;
+  }
+  
+  .key--space {
+      width: 26em;
+  }
+  
+  .key--double > * {
+      font-size:1vw ;
+      padding-bottom: 0em;
+  }
+  
+  .key--letter {
+      line-height: 2.8em;
+  }
+  
+  .key--bottom-left > * {
+      position: absolute;
+      text-align: left;
+      bottom: 0.4em;
+      left: 0.4em;
+  }
+  
+  .key--bottom-right > * {
+      position: absolute;
+      text-align: right;
+      bottom: 0.4em;
+      right: 0.4em;
+  }
+  
+  .key--fn > * {
+      font-size: 0.6em;
+      line-height: 1em;
+      padding-top: 1.2em;
+      padding-right: 0.2em;
+      text-align: right;
+      float: right;
+  }
+  .key--word > * {
+      font-size: 0.8em;
+  }
+  
+  .key--arrow--tall > *,
+  .key--arrow > * {
+      font-size: 0.5em;
+      line-height: 3em;
+  }
+  
+  .key--arrow {
+      height: 1.8em;
+      margin-top: 1.7em;
+      line-height: 0.5em;
+  }
+  
+  .key--arrow--tall > * {
+      padding-top: 0.2em;
+  }
+  
+  .keyboard > .keyboard__row {
+      text-align: center;
+  }
+
+  /* =================Media-queries=============== */
+
+@media (max-width:775px){
+    .keyboard{
+        text-align: justify;
+        margin-left:1vw ;
+    }
+    button{
+        height:5vw ;
+        width: 12vw;
+        font-size:2vw ;
+    }
+    .keyboard__row > *{
+        background-color: #093002;
+        color: white;
+    }
+    .keyboard__row{
+       margin-bottom:2vw ;
+    }
+    #num-sym{
+        height:6vw ;
+        width:5.8vw ;
+        font-size:2vw ;
+        font-weight: bold;
+    }
+    #letter{
+        height:6vw ;
+        width:6.9vw ;
+        font-size:2vw ;
+    }
+    #backspace{
+        height:6vw ;
+        width:16.6vw ;
+        font-size:2vw ;
+    }
+    #capslock{
+        height:6vw ;
+        width:20vw ;
+        font-size:2vw ;
+    }
+    #shift{
+        height:6vw ;
+        width:11vw ;
+        font-size:2vw ;
+    }
+    #control_2{
+        height:6vw ;
+        width:16vw ;
+        font-size:2vw ;
+    }
+    #spaceBar{
+        height:6vw ;
+        width:41vw ;
+    }
+    #control{
+        height:6vw ;
+        width:16vw ;
+        font-size:2vw ;
+    }
+    #shift_2{
+        height:6vw ;
+        width:10.5vw ;
+        font-size:2vw ;
+    }
+    #enter{
+        height:6vw ;
+        width:19.8vw ;
+        font-size:2vw ;
+        top:6vw ;
+        left:69.5vw ;
+    }
+    #tab{
+        display: none;
+    }
+    #left-arrow{
+        display: none;
+    }
+    #double-arrow{
+        display: none;
+    }
+    #right-arrow{
+        display: none;
+    }
+    #clear{
+        height:6vw ;
+        width:10vw ;
+        font-size:2vw ;
+    }
+}
+/* ---------------- */
+@media (max-width:710px){
+    #enter{
+        top:7vw ;
+    }
+}
+@media (max-width:510px){
+    #enter{
+        top:9vw ;
+    }
+}
+@media (max-width:340px){
+    #enter{
+        top:11.5vw ;
+        left:70vw ;
+    }
+    #spaceBar{
+        height:5vw;
+        width:40vw ;
+    }
+  
+}
