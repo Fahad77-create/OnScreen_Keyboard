@@ -33,7 +33,7 @@ input.addEventListener('mouseup', e => {
 // for capslock btn
 capsLock.addEventListener('click', e => {
     if (capsLock.innerHTML === '<span>' + 'caps lock On' + '</span>') {
-        capsLock.style.background = '#59FD3C'
+        capsLock.style.background = '#093002'
         capsLock.innerHTML = '<span>' + 'caps lock' + '</span>'
     }
     else {
@@ -54,9 +54,9 @@ backSpace.addEventListener('click', e => {
 // for shift btns
 shift.addEventListener('click', event => {
     if (shift.innerHTML === '<span>' + 'Shift On' + '</span>') {
-        shift_2.style.background = '#59FD3C'
+        shift_2.style.background = '#093002'
         shift_2.innerHTML = '<span>' + 'Shift' + '</span>'
-        shift.style.background = '#59FD3C'
+        shift.style.background = '#093002'
         shift.innerHTML = '<span>' + 'Shift' + '</span>'
     }
     else {
@@ -68,9 +68,9 @@ shift.addEventListener('click', event => {
 })
 shift_2.addEventListener('click', event => {
     if (shift_2.innerHTML === '<span>' + 'Shift On' + '</span>') {
-        shift.style.background = '#59FD3C'
+        shift.style.background = '#093002'
         shift.innerHTML = '<span>' + 'Shift' + '</span>'
-        shift_2.style.background = '#59FD3C'
+        shift_2.style.background = '#093002'
         shift_2.innerHTML = '<span>' + 'Shift' + '</span>'
     }
     else {
@@ -104,9 +104,9 @@ spaceBar.addEventListener('click', e => {
 // for shift btns
 control.addEventListener('click', event => {
     if (control.innerHTML === '<span>' + 'Control On' + '</span>') {
-        control_2.style.background = '#59FD3C'
+        control_2.style.background = '#093002'
         control_2.innerHTML = '<span>' + 'Control' + '</span>'
-        control.style.background = '#59FD3C'
+        control.style.background = '#093002'
         control.innerHTML = '<span>' + 'Control' + '</span>'
     }
     else {
@@ -118,9 +118,9 @@ control.addEventListener('click', event => {
 })
 control_2.addEventListener('click', event => {
     if (control_2.innerHTML === '<span>' + 'Control On' + '</span>') {
-        control.style.background = '#59FD3C'
+        control.style.background = '#093002'
         control.innerHTML = '<span>' + 'Control' + '</span>'
-        control_2.style.background = '#59FD3C'
+        control_2.style.background = '#093002'
         control_2.innerHTML = '<span>' + 'Control' + '</span>'
     }
     else {
